@@ -11,7 +11,7 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 @click.option('-o', '--output', 'path', help="output's path")
 def cli(filename, file_type=None, path=None):
     """
-    LogParser is a cli tool to convert nginx's error log to JSON and TXT file.
+    mytools is a cli tool to convert nginx's error log to JSON and TXT file.
 
     Basic Usage : 
 \n
