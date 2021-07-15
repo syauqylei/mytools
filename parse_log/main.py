@@ -15,15 +15,15 @@ def cli(filename, file_type=None, path=None):
 
     Basic Usage : 
 \n
-        $ logconv error.log -t json
+        $ logconv /var/log/nginx/error.log -t json
 \n
         or
 \n
-        $ logconv error.log -t text
+        $ logconv /var/log/nginx/error.log -t text
 \n
         or
 \n
-        $ logconv error.log -t json -o ./sample/error.json
+        $ logconv /var/log/nginx/error.log -t json -o /var/log/nginx/error.json
 \n
         This command will generate text file as a default if -t or --type is not provided.
     """
