@@ -3,22 +3,20 @@ A tool to convert nginx error log to JSON and TEXT
 
 ### Installation
 
-'''
- git clone https://github.com/syauqylei/mytools.git
+```
+ $ git clone https://github.com/syauqylei/mytools.git
  
- cd mytools
+ $ cd mytools
  
- pip install .
-'''
+ $ pip install .
+```
 
 ### Basic Usage
 
 check documentation in terminal
-'''
-mytools -h
-'''
+```
+$ mytools -h
 
-'''
 Usage: mytools [OPTIONS] FILENAME
 
   mytools is a cli tool to convert nginx's error log to JSON and TXT file.
@@ -43,5 +41,4 @@ Options:
   -t, --type TEXT    output file's type
   -o, --output TEXT  output's path
   -h, --help         Show this message and exit.
-
-'''
+```
