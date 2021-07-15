@@ -1,0 +1,4 @@
+.vim
+env
+__pycache__
+mytools.egg-info
