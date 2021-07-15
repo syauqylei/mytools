@@ -1,6 +1,6 @@
 import click
 import os
-from parse_log.ParseLog import LogParser
+from .utils.ParseLog import LogParser
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 

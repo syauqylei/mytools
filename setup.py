@@ -1,13 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='mytools',
     version='0.1.0',
-    py_modules=['main'],
+    packages=find_packages(),
     install_requires=['Click'],
     entry_points={
         'console_scripts': [
-            'mytools = main:cli',
+            'mytools = parse_log.main:cli',
         ],
     },
 )
